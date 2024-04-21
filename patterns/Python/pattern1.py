@@ -12,7 +12,7 @@ def pattern_generator(n):
     for i in range(n):
         for j in range(n):
             print("* ", end="")
-        print("\n")
+        print("")
     
 def main():
     i = int(input("Enter the size for the pattern: "))
