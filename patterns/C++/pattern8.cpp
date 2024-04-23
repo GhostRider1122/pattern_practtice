@@ -1,3 +1,16 @@
+/*
+Generate the following pattern
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    * * * *
+    * * *
+    * *
+    *
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
