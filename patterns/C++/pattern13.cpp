@@ -10,7 +10,7 @@ A
 #include<bits/stdc++.h>
 using namespace std;
 
-void pattern11(int n){
+void pattern13(int n){
     for(int i=0 ; i<n; i++){
         for(char j='A'; j<'A'+(n-i); j++){
             cout << j <<" ";
@@ -28,5 +28,5 @@ int main(){
     cin >> n;
 
     cout << "\nHere is the generated pattern\n";
-    pattern11(n);
+    pattern13(n);
 }
